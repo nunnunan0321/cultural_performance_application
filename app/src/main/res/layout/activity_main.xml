@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:weightSum="6"
+    android:orientation="vertical"
+    android:background="#E8E2DA">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:padding="30dp"
+        app:srcCompat="@drawable/___full_"/>
+    <Button
+        android:id="@+id/btn_main_date"
+        android:layout_marginHorizontal="10dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/white"
+        android:text="기간으로 검색"
+        android:textColor="#717171"
+        android:textSize="30sp"
+        android:letterSpacing="0"
+        />
+    <Button
+        android:id="@+id/btn_main_local"
+        android:layout_marginHorizontal="10dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/white"
+        android:text="지역별 검색"
+        android:textColor="#717171"
+        android:textSize="30sp"
+        android:letterSpacing="0"
+        />
+    <Button
+        android:id="@+id/btn_main_save"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="4dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/white"
+        android:text="찜해둔거 보기"
+        android:textColor="#717171"
+        android:textSize="30sp"
+        android:letterSpacing="0"
+        />
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="made by me\n내가만듬\n선린 앱동아리 EDCAN Atelier\n어쩌고저쩌고"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>
